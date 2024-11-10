@@ -22,3 +22,11 @@ npm run build
 ```
 
 - **Sass**
+
+## ⚙️ Usage
+
+- **Images**
+
+```
+<img src="<?php echo vite_url('img/mon-image.jpg'); ?>" alt="">
+```
