@@ -30,3 +30,13 @@ npm run build
 ```
 <img src="<?php echo vite_url('img/mon-image.jpg'); ?>" alt="">
 ```
+
+- **Fonts**
+
+```
+@font-face {
+  font-family: 'my-font';
+  src: url('/fonts/my-font.[ext]') format();
+}
+```
+*Some IDE may not resolve Vite's path but the code's working correctly*
